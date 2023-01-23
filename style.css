@@ -1,0 +1,23 @@
+body {
+    display:grid;
+    grid-template-columns:300px 1fr;
+    height:100vh;
+    margin:0;
+}
+
+.sidebar {    
+    background-color:#1992d4;
+}
+
+main {
+    display:grid;
+    grid-template-rows:200px 1fr;
+}
+
+header {
+    background-color:#ffffff;
+}
+
+.content {
+    background-color:#e2e8f0;
+}
