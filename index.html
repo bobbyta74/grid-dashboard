@@ -6,20 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/0a73c0a1f7.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="sidebar">
-        <div class="title">
+        <div id="title">
+            <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+            <a href="#">Dashboard</a>
         </div>
-        <div class="menubar"></div>
-        <div class="menubar"></div>
+        <div class="menubar">
+            <div>
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <a href="#">Home</a>
+            </div>
+            <div>
+                <i class="fa fa-address-card-o" aria-hidden="true"></i>
+                <a href="#">Profile</a>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <a href="#">Messages</a>
+            </div>
+            <div>
+                <i class="fa fa-history" aria-hidden="true"></i>
+                <a href="#">History</a>
+            </div>
+            <div>
+                <i class="fa fa-tasks" aria-hidden="true"></i>
+                <a href="#">Tasks</a>
+            </div>
+            <div>
+                <i class="fa fa-users" aria-hidden="true"></i>
+                <a href="#">Communities</a>
+            </div>
+        </div>
+        <div class="menubar">
+            <div>
+                <i class="fa fa-cog" aria-hidden="true"></i>
+                <a href="#">Settings</a>
+            </div>
+            <div>
+                <i class="fa fa-question-circle" aria-hidden="true"></i>
+                <a href="#">Support</a>
+            </div>
+            <div>
+                <i class="fa fa-user-secret" aria-hidden="true"></i>
+                <a href="#">Privacy</a>
+            </div>
+        </div>
     </div>
     <main>
         <header>
-
+            <div id="leftheader">
+                <div id="search">
+                    <button class="icon"><i class="fa fa-search" aria-hidden="false"></i></button>
+                    <input type="text">
+                </div>
+                <div id="welcomemessage">
+                    <img src="pfpholydiver.png" alt="Profile picture">
+                    <div>
+                        <p>Hi there,</p>
+                        <h2>Morgan Oakley (@morgan)</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="rightheader">
+                <div id="profile"></div>
+                <div id="buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
         </header>
         <div class="content">
-
         </div>
     </main>
 </body>
