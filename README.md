@@ -12,3 +12,4 @@ Dashboard I made using CSS grid as part of the Odin Project. The aim was to get 
 - Using external icons [(Font Awesome)](https://fontawesome.com/)
 - Media queries
 - Box-shadow (again)
+- Markdown (for this readme lol)
