@@ -256,6 +256,13 @@ button:hover {
     align-self:flex-end;
 }
 
+@media only screen and (max-width:820px) {
+    .content {
+        display:flex;
+        flex-direction:column;
+    }
+}
+
 #announcements>div {
     background-color:white;
     border-radius:10px;
